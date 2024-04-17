@@ -6,6 +6,7 @@ public class CaseTriggerHandler {
             if (c.Type == 'Problem') {
                 if (!nonconformanceExistsForCase(c.Id)) {
                     nonconformanceRecordsToCreate.add(createNonconformanceRecord(c));
+                    //test
                 }
             }
         }
